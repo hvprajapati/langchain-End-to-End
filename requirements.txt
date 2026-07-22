@@ -1,0 +1,12 @@
+openai
+anthropic
+google-genai
+python-dotenv
+langchain 
+langchain-openai 
+langchain-anthropic 
+langchain-google-genai 
+langchain-deepseek
+langchain-huggingface
+langchain-openrouter
+gradio

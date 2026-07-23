@@ -10,3 +10,5 @@ langchain-deepseek
 langchain-huggingface
 langchain-openrouter
 gradio
+grandalf
+langchain-community

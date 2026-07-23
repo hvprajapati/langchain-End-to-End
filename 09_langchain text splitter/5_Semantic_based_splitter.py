@@ -1,11 +1,15 @@
+# NOTE: SemanticChunker still lives in langchain-experimental. The proposal to move
+# it into a core package was closed as "not planned", and langchain-experimental has
+# been sunset (final release 0.4.2), so this remains the only home for SemanticChunker.
 from langchain_experimental.text_splitter import SemanticChunker
-from langchain_openai.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 
 load_dotenv()
 
 text_splitter = SemanticChunker(
-    OpenAIEmbeddings(), breakpoint_threshold_type="standard_deviation",
+    OpenAIEmbeddings(model="text-embedding-3-small"),
+    breakpoint_threshold_type="standard_deviation",
     breakpoint_threshold_amount=1
 )
 

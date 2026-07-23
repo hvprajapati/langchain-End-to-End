@@ -15,7 +15,7 @@ prompt = PromptTemplate(
 
 parser = StrOutputParser()
 
-loader = TextLoader(r'c:\Users\T14s\Desktop\langchain\langchain document loaders\gyan.txt', encoding='utf-8')
+loader = TextLoader(r'c:\Users\T14s\Desktop\langchain\08_langchain document loaders\gyan.txt', encoding='utf-8')
 
 docs = loader.load()
 

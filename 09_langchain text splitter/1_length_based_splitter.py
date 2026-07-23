@@ -1,7 +1,7 @@
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader("Langchain Document Loaders/Arsalan_Ali_Resume_2025.pdf")
+loader = PyPDFLoader(r"c:\Users\T14s\Desktop\langchain\09_langchain text splitter\guide_en.pdf")
 
 docs = loader.load()
 

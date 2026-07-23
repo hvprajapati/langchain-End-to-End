@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader(r'c:\Users\T14s\Desktop\langchain\langchain document loaders\guide_en.pdf')
+loader = PyPDFLoader(r'c:\Users\T14s\Desktop\langchain\08_langchain document loaders\guide_en.pdf')
 
 docs = loader.load()
 

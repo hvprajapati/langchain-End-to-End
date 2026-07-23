@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 
 loader = DirectoryLoader(
-    path=r'c:\Users\T14s\Desktop\langchain\langchain document loaders\books',
+    path=r'c:\Users\T14s\Desktop\langchain\08_langchain document loaders\books',
     glob='*.pdf',
     loader_cls=PyPDFLoader
 )
